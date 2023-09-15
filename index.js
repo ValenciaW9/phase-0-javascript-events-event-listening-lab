@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   addingEventListener();
 });
+
 function addingEventListener() {
   // Get the button element from the HTML document
   const button = document.querySelector('#myButton');
@@ -10,3 +11,4 @@ function addingEventListener() {
     // Code to be executed when the button is clicked
     console.log('The button was clicked!');
   });
+}
