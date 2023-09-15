@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Your code here
+  });
 function addingEventListener() {
   // Get the button element from the HTML document
   const button = document.querySelector('#myButton');
